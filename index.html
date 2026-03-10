@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather-App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/e21973d480.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="weather-app">
+      <div class="input-search">
+        <input type="text" placeholder="Enter city name" id="input-box" />
+        <span id="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </span>
+      </div>
+      <p id="error">Invalid city name</p>
+      <div id="weather-container">
+        <h1 id="city">Mumbai</h1>
+        <img src="images/clear.png" alt="weather-img" id="weather-img" />
+        <h1 class="temp">28°c</h1>
+        <div class="weather-info">
+          <div class="weather-data">
+            <p id="text">WIND</p>
+            <p id="wind">1.72 km/h</p>
+          </div>
+          <div class="weather-data">
+            <p id="text">HUMIDITY</p>
+            <p id="humidity">66%</p>
+          </div>
+          <div class="weather-data">
+            <p id="text">STATUS</p>
+            <p id="status">Clear</p>
+          </div>
+          <div class="weather-data">
+            <p id="text">TEMP</p>
+            <p id="temp">28°c</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
